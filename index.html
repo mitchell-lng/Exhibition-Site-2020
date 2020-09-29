@@ -4,9 +4,22 @@
         <title>HTHM Exhibition Site 2020</title>
         <link rel="stylesheet" href="stylesheets/style.css">
         <link rel="stylesheet" href="stylesheets/slides.css">
+
+        <link rel="stylesheet" href="stylesheets/bmeasurespage.css" id="bm">
+        <link rel="stylesheet" href="stylesheets/jworkspage.css" id="jw">
+        <link rel="stylesheet" href="stylesheets/mainpage.css" id="mp">
+        <link rel="stylesheet" href="stylesheets/ochemspage.css" id="oc">
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/vuex/3.1.1/vuex.min.js"></script>
         <script>
+            // Gets id from the url to check which stylesheet to use
+            function getIDfromURL(){
+                var url = $(location).attr('href');
+                return url.split("#")[1];
+            }
+
+            // Setup all the mini pages html
             $(document).ready(function() {
                 // Load in the page files
                 // Helps to keep the html simple
@@ -24,40 +37,19 @@
             <div class="slides">
               <div id="main">
                   <div class="navbar"></div>
-                  <div>
-                    <style scoped>
-                        @import "stylesheets/mainpage.css";
-                    </style>
-                    <div id="mainpage"></div>
-                  </div>
+                  <div id="mainpage"></div>
               </div>
               <div id="bmeasures">
                 <div class="navbar"></div>
-                <div>
-                    <style scoped>
-                        @import "stylesheets/mainpage.css";
-                    </style>
-                    <div id="bmeasurespage"></div>
-                  </div>
+                <div id="bmeasurespage"></div>
               </div>
               <div id="ochems">
                 <div class="navbar"></div>
-                <div>
-                    <style scoped>
-                        @import "stylesheets/ochemspage.css";
-                    </style>
-                    <div id="ochemspage"></div>
-                </div>
-              </div>
+                <div id="ochemspage"></div>
               </div>
               <div id="jworks">
                 <div class="navbar"></div>
-                <div>
-                    <style scoped>
-                        @import "stylesheets/jworkspage.css";
-                    </style>
-                    <div id="jworkspage"></div>
-                </div>
+                <div id="jworkspage"></div>
               </div>
             </div>
         </div>
