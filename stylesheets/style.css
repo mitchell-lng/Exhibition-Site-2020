@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
   }
@@ -11,11 +11,17 @@ html, body {
   height: 100%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Courier Prime', monospace;
+}
+
 nav ul {
   display: flex;
+  flex: wrap;
   justify-content: space-around;
   margin: 20px;
   background-color: var(--nav-color);
+  text-align: center;
 }
 
 nav ul a {
@@ -47,4 +53,66 @@ header h1 {
   padding-bottom: 5vh;
   background-color: rgba(255, 255, 255, 0.5);
   font-family: 'Courier Prime', monospace;
+  text-align: center;
+}
+
+.flex-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.flex-boxes > div {
+  min-width: 200px;
+  background-color: var(--secondary);
+  padding: 10px 20px;
+  margin-top: 25px;
+  flex: 1;
+  max-width: 25vw;
+}
+
+.flex-boxes h3 {
+  color: #6b6b6b;
+}
+
+.side-image {
+  display: flex;
+  justify-content: center;
+}
+
+.side-image > div {
+  width: 20vw;
+  min-width: 300px;
+}
+
+.side-image h1 {
+  font-size: 2vw;
+}
+
+.side-image h2 {
+  color: #6b6b6b;
+  font-size: 1vw;
+  margin-bottom: 0.5vw;
+}
+
+.si-image {
+  background-image: url("../assets/website/computer.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30vw !important;
+  height: 30vw;
+  border-radius: 250px;
+}
+
+.si-right {
+}
+
+.side-image div:not(.si-image) {
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: auto;
+  margin-bottom: auto;
 }

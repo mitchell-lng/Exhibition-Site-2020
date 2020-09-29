@@ -1,3 +1,4 @@
 :root {
-  --nav-color: #bdd5d7;
+  --nav-color: white; /*#bdd5d7;*/
+  --secondary:#bdd5d7;
 }
