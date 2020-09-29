@@ -25,6 +25,7 @@ nav ul a {
   display: inline-block;
   color: black;
   text-decoration: none;
+  border: 1px solid black;
 }
 
 nav ul a:hover {
@@ -32,5 +33,18 @@ nav ul a:hover {
 }
 
 header {
-  background-image: url();
+  background-image: url("../assets/website/computer.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+header h1 {
+  margin-top: 30vh;
+  margin-bottom: 30vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: 'Courier Prime', monospace;
 }

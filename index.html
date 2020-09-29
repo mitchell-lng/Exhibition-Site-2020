@@ -28,21 +28,7 @@
                 $("#jw").attr("disabled", "disabled");
                 $("#mp").attr("disabled", "disabled");
                 $("#oc").attr("disabled", "disabled");
-            }
 
-            // Setup all the mini pages html
-            $(document).ready(function() {
-                // Load in the page files
-                // Helps to keep the html simple and separated
-                $(".navbar").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/sections/navigation.html");
-                $("#mainpage").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/mainpage.html");
-                $("#bmeasurespage").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/bmeasurespage.html");
-                $("#ochemspage").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/ochemspage.html");
-                $("#jworkspage").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/jworkspage.html");
-            });
-
-            // On id change, change the stylesheet
-            $(window).on('hashchange', function(e){
                 var id = getIDfromURL();
                 switch(id) {
                     case "ochems":
@@ -61,6 +47,24 @@
                         $("#mp").removeAttr("disabled");
                         break;
                 }
+            }
+
+            // Setup all the mini pages html
+            $(document).ready(function() {
+                // Load in the page files
+                // Helps to keep the html simple and separated
+                $(".navbar").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/sections/navigation.html");
+                $("#mainpage").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/mainpage.html");
+                $("#bmeasurespage").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/bmeasurespage.html");
+                $("#ochemspage").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/ochemspage.html");
+                $("#jworkspage").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/jworkspage.html");
+
+                noExtraPages();
+            });
+
+            // On id change, change the stylesheet
+            $(window).on('hashchange', function(e){
+                noExtraPages();
             });
         </script>
     </head>
