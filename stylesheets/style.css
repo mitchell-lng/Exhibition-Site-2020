@@ -15,6 +15,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Courier Prime', monospace;
 }
 
+p {
+  font-family: sans-serif;
+  line-height: 1vw;
+  font-weight: 400;
+}
+
 nav ul {
   display: flex;
   flex: wrap;
@@ -61,12 +67,11 @@ header h1 {
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
 
 .flex-boxes > div {
   min-width: 200px;
-  background-color: var(--secondary);
   padding: 10px 20px;
   margin-top: 25px;
   flex: 1;
