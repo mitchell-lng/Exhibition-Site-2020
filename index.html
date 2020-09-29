@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>HTHM Exhibition Site 2020</title>
 
@@ -25,7 +25,7 @@
 
             // Disables all of the mini html page's css
             function noExtraPages() {
-                $("#bm").attr("disabled", "disabled");
+                $('#bm').attr("disabled", "disabled")
                 $("#jw").attr("disabled", "disabled");
                 $("#mp").attr("disabled", "disabled");
                 $("#oc").attr("disabled", "disabled");
@@ -54,11 +54,11 @@
             $(document).ready(function() {
                 // Load in the page files
                 // Helps to keep the html simple and separated
-                $(".navbar").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/sections/navigation.html");
-                $("#mainpage").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/mainpage.html");
-                $("#bmeasurespage").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/bmeasurespage.html");
-                $("#ochemspage").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/ochemspage.html");
-                $("#jworkspage").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/jworkspage.html");
+                $(".navbar").load("./include/sections/navigation.html");
+                $("#mainpage").load("./include/mainpage.html");
+                $("#bmeasurespage").load("./include/bmeasurespage.html", "", test());
+                $("#ochemspage").load("./include/ochemspage.html");
+                $("#jworkspage").load("./include/jworkspage.html");
 
                 noExtraPages(); 
             });

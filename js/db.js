@@ -1,8 +1,5 @@
-x = document.getElementById("dataspot");
-
-for (let i = 0; i < ballotmeasuresJSON.length; i++) {
-    var e = document.createElement("p");
-    e.textContent = ballotmeasuresJSON[i].title;
-
-    x.append(e);
+function test() {
+    const p = $("#bmeasurespage");
+    console.log(p);
+    console.log(p[0].children);
 }
