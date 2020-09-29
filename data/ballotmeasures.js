@@ -1,0 +1,13 @@
+ballotmeasures = {
+    [
+        {
+            "title": "",
+            "members": [
+                "",
+                "",
+                ""
+            ],
+            
+        }
+    ]
+}
