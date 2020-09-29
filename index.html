@@ -2,13 +2,16 @@
 <html>
     <head>
         <title>HTHM Exhibition Site 2020</title>
+
         <link rel="stylesheet" href="stylesheets/style.css">
         <link rel="stylesheet" href="stylesheets/slides.css">
-
         <link rel="stylesheet" href="stylesheets/bmeasurespage.css" id="bm">
         <link rel="stylesheet" href="stylesheets/jworkspage.css" id="jw">
         <link rel="stylesheet" href="stylesheets/mainpage.css" id="mp">
         <link rel="stylesheet" href="stylesheets/ochemspage.css" id="oc">
+
+        <script type="text/javascript" src="data/ballotmeasures.js"></script>
+        <script type="text/javascript" src="js/db.js"></script>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/vuex/3.1.1/vuex.min.js"></script>
@@ -30,14 +33,20 @@
             // Setup all the mini pages html
             $(document).ready(function() {
                 // Load in the page files
-                // Helps to keep the html simple and seperated
-              $(".navbar").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/navigation.html"); 
-              $("#mainpage").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/mainpage.html"); 
-              $("#bmeasurespage").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/bmeasurespage.html"); 
-              $("#ochemspage").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/ochemspage.html"); 
-              $("#jworkspage").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/jworkspage.html"); 
+                // Helps to keep the html simple and separated
+                // $(".navbar").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/navigation.html");
+                // $("#mainpage").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/mainpage.html");
+                // $("#bmeasurespage").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/bmeasurespage.html");
+                // $("#ochemspage").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/ochemspage.html");
+                // $("#jworkspage").load("https://raw.githubusercontent.com/monkie1357/Exhibition-Site-2020/master/include/jworkspage.html");
+
+                $(".navbar").load("./include/navigation.html");
+                $("#mainpage").load("./include/mainpage.html");
+                $("#bmeasurespage").load("./include/bmeasurespage.html");
+                $("#ochemspage").load("./include/ochemspage.html");
+                $("#jworkspage").load("./include/jworkspage.html");
             });
-            
+
             // On id change, change the stylesheet
             $(window).on('hashchange', function(e){
                 var id = getIDfromURL();
@@ -59,7 +68,7 @@
                         break;
                 }
             });
-        </script> 
+        </script>
     </head>
 
     <!--
