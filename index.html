@@ -9,13 +9,16 @@
         <link rel="stylesheet" href="stylesheets/bmeasurespage.css" id="bm">
         <link rel="stylesheet" href="stylesheets/jworkspage.css" id="jw">
         <link rel="stylesheet" href="stylesheets/mainpage.css" id="mp">
-        <link rel="stylesheet" href="stylesheets/ochemspage.css" id="oc">
-
-        <script type="text/javascript" src="data/ballotmeasures.js"></script>
-        <script type="text/javascript" src="js/db.js"></script>
+        <link rel="stylesheet" href="stylesheets/chemicalspage.css" id="ch">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/vuex/3.1.1/vuex.min.js"></script>
+
+        <script type="text/javascript" src="data/ballotmeasures.js"></script>
+        <script type="text/javascript" src="data/chemicals.js"></script>
+
+        <script type="text/javascript" src="js/cards.js"></script>
+
         <script>
             // Gets id from the url to check which stylesheet to use
             function getIDfromURL(){
@@ -28,12 +31,12 @@
                 $('#bm').attr("disabled", "disabled")
                 $("#jw").attr("disabled", "disabled");
                 $("#mp").attr("disabled", "disabled");
-                $("#oc").attr("disabled", "disabled");
+                $("#ch").attr("disabled", "disabled");
 
                 var id = getIDfromURL();
                 switch(id) {
-                    case "ochems":
-                        $("#oc").removeAttr("disabled");
+                    case "chem":
+                        $("#ch").removeAttr("disabled");
                         break;
                     case "jworks":
                         $("#jw").removeAttr("disabled");
@@ -54,8 +57,8 @@
                 $(".navbar").load("./include/sections/navigation.html");
                 $(".footer").load("./include/sections/footer.html");
                 $("#mainpage").load("./include/mainpage.html");
-                $("#bmeasurespage").load("./include/bmeasurespage.html", "", test());
-                $("#ochemspage").load("./include/ochemspage.html");
+                $("#bmeasurespage").load("./include/bmeasurespage.html");
+                $("#chemicalspage").load("./include/chemicalspage.html");
                 $("#jworkspage").load("./include/jworkspage.html");
 
                 noExtraPages(); 
@@ -85,9 +88,9 @@
                 <div id="bmeasurespage"></div>
                 <div class="footer"></div>
               </div>
-              <div id="ochems">
+              <div id="chem">
                 <div class="navbar"></div>
-                <div id="ochemspage"></div>
+                <div id="chemicalspage"></div>
                 <div class="footer"></div>
               </div>
               <div id="jworks">
