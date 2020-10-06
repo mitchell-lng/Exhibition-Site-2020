@@ -17,7 +17,6 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: sans-serif;
-  line-height: 1vw;
   font-weight: 400;
 }
 
@@ -71,35 +70,30 @@ header h1 {
 }
 
 .flex-boxes > div {
-  min-width: 200px;
+  min-width: 400px;
   padding: 10px 20px;
   margin-top: 25px;
   flex: 1;
-  max-width: 25vw;
+  max-width: 30vw;
 }
 
-.flex-boxes h3 {
+.subtitle {
   color: #6b6b6b;
+  border-bottom: 1px solid #9b9b9b;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .side-image {
+  margin-top: calc( 2vw + 50px);
   display: flex;
   justify-content: center;
 }
 
 .side-image > div {
   width: 20vw;
-  min-width: 300px;
-}
-
-.side-image h1 {
-  font-size: 2vw;
-}
-
-.side-image h2 {
-  color: #6b6b6b;
-  font-size: 1vw;
-  margin-bottom: 0.5vw;
+  min-width: 400px;
+  min-height: 400px;
 }
 
 .si-image {
@@ -109,10 +103,9 @@ header h1 {
   background-size: cover;
   width: 30vw !important;
   height: 30vw;
-  border-radius: 250px;
-}
-
-.si-right {
+  border-radius: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .side-image div:not(.si-image) {
