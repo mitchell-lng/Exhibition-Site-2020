@@ -21,11 +21,11 @@ function loadCardsLoop(db, len, thing) {
 function loadCards(name) {
     switch (name) {
         case "chems":
-            var thing = "../templates/chemical.html#";
+            var thing = "../templates/individualcard.html#chem-";
             $("#chemicals").append(loadCardsLoop(chemicalsJSON, chemicalsJSON.length, thing))
             break;
         case "bmeasures":
-            var thing = "../templates/ballotmeasure.html#"
+            var thing = "../templates/individualcard.html#bm-"
             $("#ballotmeasures").append(loadCardsLoop(ballotmeasuresJSON, ballotmeasuresJSON.length, thing));
             break;
     }
