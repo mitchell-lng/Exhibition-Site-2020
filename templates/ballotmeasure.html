@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTHM Exhibition Site 2020</title>
+
+        <link rel="stylesheet" href="../stylesheets/individualballotmeasure.css">
+        <script src="../data/ballotmeasures.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script>
+        function getIDfromURL(){
+            var url = $(location).attr('href');
+            return url.split("#")[1];
+        }
+
+        $(document).ready(function() {
+            let id = getIDfromURL();
+
+            $("#title").text(ballotmeasuresJSON[id].title);
+            $("#members").text(ballotmeasuresJSON[id].members);
+            $("#description").text(ballotmeasuresJSON[id].description);
+            $("#gdocURL").attr("href", ballotmeasuresJSON[id].pdf);
+            $("#posterURL").css("background-image", "url('" + ballotmeasuresJSON[id].poster + "')");
+        });
+        </script>
+    </head>
+    <body>
+        <main>
+            <div id="posterURL"></div>
+            <div>
+                <h1 id="title"></h1>
+                <h2 id="members"></h2>
+                <h3 id="description"></h3>
+                <div id="links">
+                    <a id="gdocURL">Read Through The Research</a>
+                    <a href="../index.html#bmeasures">Go Back To Main Page</a>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

@@ -8,9 +8,9 @@ const ballotmeasuresJSON = [
     },
     {
         "title": "Prop 24",
-        "members": "Scott Semtner, Dominic Lara",
+        "members": "Scott Semtner, Dominic L.",
         "description": "Prop 24 will increase online consumer privacy laws in California",
         "pdf": "https://www.google.com",
-        "poster": "../assets/place"
+        "poster": "../assets/ballotmeasures/poster/computer.jpg"
     }
 ];

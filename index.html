@@ -11,13 +11,15 @@
         <link rel="stylesheet" href="stylesheets/mainpage.css" id="mp">
         <link rel="stylesheet" href="stylesheets/chemicalspage.css" id="ch">
 
+        <link rel="stylesheet" href="../stylesheets/style.css">
+        <link rel="stylesheet" href="../stylesheets/slides.css">
+        <link rel="stylesheet" href="../stylesheets/constants.css">
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/vuex/3.1.1/vuex.min.js"></script>
 
         <script type="text/javascript" src="data/ballotmeasures.js"></script>
         <script type="text/javascript" src="data/chemicals.js"></script>
-
-        <script type="text/javascript" src="js/cards.js"></script>
 
         <script>
             // Gets id from the url to check which stylesheet to use
@@ -52,6 +54,8 @@
 
             // Setup all the mini pages html
             $(document).ready(function() {
+                $("#js-error").hide();
+
                 // Load in the page files
                 // Helps to keep the html simple and separated
                 $(".navbar").load("./include/sections/navigation.html");
@@ -68,6 +72,8 @@
             $(window).on('hashchange', function(e){
                 noExtraPages();
             });
+
+            window.ondragstart = function() { return false; } 
         </script>
     </head>
 
@@ -76,6 +82,8 @@
     -->
 
     <body>
+        <h1 id="js-error">YOU NEED JAVASCRIPT TO VIEW THIS WEBSITE</h1>
+
         <div class="slider">
             <div class="slides">
               <div id="main">

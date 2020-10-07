@@ -86,8 +86,10 @@ header h1 {
 
 .side-image {
   margin-top: calc( 2vw + 50px);
+  margin-bottom: calc( 2vw + 50px);
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .side-image > div {
@@ -141,6 +143,7 @@ footer h4 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin: calc(2vw + 20px);
 }
 
 .cards article div h1 {
@@ -164,8 +167,11 @@ footer h4 {
 }
 
 .cards > article > a {
-    display: block;
     width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: black;
@@ -179,11 +185,11 @@ footer h4 {
 }
 
 .cards > article {
+    position: relative;
     flex: 1;
     max-width: 300px;
     min-width: 200px;
-    margin: calc(2vw + 20px);
-    margin-top: auto;
-    margin-bottom: auto;
+    min-height: 350px;
+    margin: calc(2vw + 40px);
     border: 1px solid black;
 }

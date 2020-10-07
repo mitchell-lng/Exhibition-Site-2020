@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Playfair+Display&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Courier Prime', monospace;
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+}
+
+main > div {
+    width: 50vw;
+    flex: 1;
+}
+
+#posterURL {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    height: 100vh;
+    margin-left: calc(2vw + 40px);
+}
+
+main > div:not(#posterURL) {
+    padding: calc(4vw + 40px);
+    margin: auto;
+}
+
+#links {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#links > a {
+    padding: 10px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+
+    #posterURL {
+        width: 100vw;
+        min-height: 50vw;
+        margin-left: 0;
+        margin-top: calc(2vw + 40px);
+    }
+}

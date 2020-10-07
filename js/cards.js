@@ -18,26 +18,15 @@ function loadCardsLoop(db, len, thing) {
     return returnList;
 }
 
-function appendCards(data, id) {
-    for (let i = 0; i < data.length; i++) {
-        $(id).append(data[i]);
-    }
-}
-
 function loadCards(name) {
     switch (name) {
         case "chems":
-            var len = chemicalsJSON.length;
-            var db = chemicalsJSON;
-            var thing = "./chemical.html#";
-            $("#chemicals").append(loadCardsLoop(db, len, thing));
-            appendCards(loadCardsLoop(db, len, thing), "#chemicals");
+            var thing = "../templates/chemical.html#";
+            $("#chemicals").append(loadCardsLoop(chemicalsJSON, chemicalsJSON.length, thing))
             break;
         case "bmeasures":
-            var len = ballotmeasuresJSON.length;
-            var db = ballotmeasuresJSON;
-            var thing = "./ballotmeasure.html#"
-            appendCards(loadCardsLoop(db, len, thing), "#ballotmeasures");
+            var thing = "../templates/ballotmeasure.html#"
+            $("#ballotmeasures").append(loadCardsLoop(ballotmeasuresJSON, ballotmeasuresJSON.length, thing));
             break;
     }
 }
