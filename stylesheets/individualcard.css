@@ -14,6 +14,22 @@ h1 {
     font-weight: 600;
 }
 
+body {
+    position: relative;
+}
+
+#back {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    padding: 15px 20px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 100%;
+    z-index: 1000;
+}
+
 main {
     display: flex;
 }
@@ -27,8 +43,10 @@ main > div {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
-    height: 100vh;
+    height: 98vh;
     margin-left: calc(2vw + 40px);
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 
 main > div:not(#posterURL) {
@@ -44,6 +62,18 @@ main > div:not(#posterURL) {
 
 #links > a {
     padding: 10px 0px;
+    outline: 2pt solid black;
+    background-color: black;
+    margin: 10pt;
+    width: 25vw;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+#links > a:hover {
+    background-color: #00000044;
+    color: black;
 }
 
 @media only screen and (max-width: 600px) {

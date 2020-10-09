@@ -20,6 +20,7 @@ $(document).ready(function() {
         case "chem":
             db = chemicalsJSON[id];
             $("#back").attr("href", "../index.html#chem");
+            $("#gdocURL").hide();
             break;
     }
 
@@ -28,4 +29,5 @@ $(document).ready(function() {
     $("#description").text(db.description);
     $("#gdocURL").attr("href", db.pdf);
     $("#posterURL").css("background-image", "url('" + db.poster + "')");
+    $(".posterLink").attr("href", db.poster);
 });
