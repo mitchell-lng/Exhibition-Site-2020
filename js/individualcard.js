@@ -1,14 +1,15 @@
 function getIDfromURL(){
     var url = $(location).attr('href');
-    let pageAndId = url.split("#")[1];
+    let pageAndId = url.split("?")[1];
 
-    return [pageAndId.split("-")[0], pageAndId.split("-")[1]];
+    return [pageAndId.split("-")[0], pageAndId.split("-")[1], pageAndId.split("-")[2]];
 }
 
 $(document).ready(function() {
     let values = getIDfromURL();
     let page = values[0];
     let id = values[1];
+    let group = values[2];
 
     let db;
 
@@ -24,10 +25,25 @@ $(document).ready(function() {
             break;
     }
 
+    if (db.groups.length == 1) {
+        $(".otherPoster").hide();
+    }
+    else {
+        $(".otherPoster").show();
+    }
+
+    if (group == 0) {
+        $(".otherPoster").attr("href", "individualcard.html?" + page + "-" + id + "-" + "1");
+    }
+    else if (group == 1) {
+        $(".otherPoster").attr("href", "individualcard.html?" + page + "-" + id + "-" + "0");
+    }
+
     $("#title").text(db.title);
-    $("#members").text(db.members);
+    $("#members").text(db.groups[group].members);
     $("#description").text(db.description);
-    $("#gdocURL").attr("href", db.pdf);
-    $("#posterURL").css("background-image", "url('" + db.poster + "')");
-    $(".posterLink").attr("href", db.poster);
+    $("#gdocURL").attr("href", db.groups[group].pdf);
+    $("#posterURL").css("background-image", "url('" + db.groups[group].poster + "')");
+    $(".posterLink").attr("href", db.groups[group].poster);
 });
+

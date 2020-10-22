@@ -1,0 +1,34 @@
+<header>
+    <h1>Search</h1>
+</header>
+<main>
+    <section>
+        <form action="javascript:void(0);">
+            <p>Name Search:</p>
+            <input id="mainPageSearch" name="name" type="text">
+        </form>
+    </section>
+
+    <section id="mainPageSearchOutput" class="cards"></section>
+
+    <script>
+        $(document).ready(function() {
+            const input = document.querySelector('input');
+            input.addEventListener('input', createPage);
+
+            $("#mainPageSearchOutput").append(loadCardsLoop(chemicalsJSON, 0, null));
+            $("#mainPageSearchOutput").append(loadCardsLoop(ballotmeasuresJSON, 1, null));
+        });
+
+        function createPage(e) {
+            clearPage();
+
+            $("#mainPageSearchOutput").append(loadCardsLoop(chemicalsJSON, 0, e.target.value));
+            $("#mainPageSearchOutput").append(loadCardsLoop(ballotmeasuresJSON, 1, e.target.value));
+        }
+
+        function clearPage() {
+            document.querySelector("#mainPageSearchOutput").innerHTML = "";
+        }
+    </script>
+</main>

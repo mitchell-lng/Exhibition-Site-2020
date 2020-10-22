@@ -60,7 +60,7 @@ main > div:not(#posterURL) {
     flex-direction: column;
 }
 
-#links > a {
+#links > a, .otherPoster {
     padding: 10px 0px;
     outline: 2pt solid black;
     background-color: black;
@@ -87,4 +87,12 @@ main > div:not(#posterURL) {
         margin-left: 0;
         margin-top: calc(2vw + 40px);
     }
+}
+
+.otherPoster {
+    height: 2vw;
+    width: 10vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }

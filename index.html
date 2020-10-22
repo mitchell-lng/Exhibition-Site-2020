@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="stylesheets/slides.css">
         <link rel="stylesheet" href="stylesheets/constants.css">
         <link rel="stylesheet" href="stylesheets/bmeasurespage.css" id="bm">
-        <link rel="stylesheet" href="stylesheets/jworkspage.css" id="jw">
+        <link rel="stylesheet" href="stylesheets/search.css" id="srch">
         <link rel="stylesheet" href="stylesheets/mainpage.css" id="mp">
         <link rel="stylesheet" href="stylesheets/chemicalspage.css" id="ch">
 
@@ -31,7 +31,7 @@
             // Disables all of the mini html page's css
             function noExtraPages() {
                 $('#bm').attr("disabled", "disabled")
-                $("#jw").attr("disabled", "disabled");
+                $("#srch").attr("disabled", "disabled");
                 $("#mp").attr("disabled", "disabled");
                 $("#ch").attr("disabled", "disabled");
 
@@ -40,8 +40,8 @@
                     case "chem":
                         $("#ch").removeAttr("disabled");
                         break;
-                    case "jworks":
-                        $("#jw").removeAttr("disabled");
+                    case "search":
+                        $("#srch").removeAttr("disabled");
                         break;
                     case "bmeasures":
                         $("#bm").removeAttr("disabled");
@@ -63,7 +63,7 @@
                 $("#mainpage").load("./include/mainpage.html");
                 $("#bmeasurespage").load("./include/bmeasurespage.html");
                 $("#chemicalspage").load("./include/chemicalspage.html");
-                $("#jworkspage").load("./include/jworkspage.html");
+                $("#searchPage").load("./include/search.html");
 
                 noExtraPages(); 
             });
@@ -101,9 +101,9 @@
                 <div id="chemicalspage"></div>
                 <div class="footer"></div>
               </div>
-              <div id="jworks">
+              <div id="search">
                 <div class="navbar"></div>
-                <div id="jworkspage"></div>
+                <div id="searchPage"></div>
                 <div class="footer"></div>
               </div>
             </div>

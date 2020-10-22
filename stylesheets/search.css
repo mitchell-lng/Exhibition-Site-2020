@@ -1,0 +1,11 @@
+form {
+    padding: calc(2vw + 20px);
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+}
+
+form p {
+    display: inline;
+    font-family: 'Courier Prime', monospace !important;
+}
