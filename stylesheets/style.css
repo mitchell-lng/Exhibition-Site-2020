@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
     box-sizing: border-box;
@@ -12,7 +13,8 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Courier Prime', monospace;
+  /* font-family: 'Courier Prime', monospace; */
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -99,15 +101,25 @@ header h1 {
 }
 
 .si-image {
-  background-image: url("../assets/website/computer.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 30vw !important;
   height: 30vw;
-  border-radius: 100%;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+#sciorsocial {
+  background-image: url("../assets/website/Science or Social Media.png");
+}
+
+#humimg {
+    background-image: url("../assets/website/computer.jpg");
+}
+
+#anotherimg {
+    background-image: url("../assets/website/computer.jpg");
 }
 
 .side-image div:not(.si-image) {
