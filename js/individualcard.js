@@ -40,7 +40,11 @@ $(document).ready(function() {
     }
 
     $("#title").text(db.title);
-    $("#members").text(db.groups[group].members);
+
+    var m = [...db.groups[group].members];
+    m.pop();
+    
+    $("#members").text(m.join(", ") + " and " + db.groups[group].members[db.groups[group].members.length - 1]);
     $("#description").text(db.description);
     $("#gdocURL").attr("href", db.groups[group].pdf);
     $("#posterURL").css("background-image", "url('" + db.groups[group].poster + "')");

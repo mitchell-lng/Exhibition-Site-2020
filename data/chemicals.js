@@ -1,28 +1,303 @@
 const chemicalsJSON = [
     {
-        "title": "Example Chemical",
-        "description": "A test controvercial chemical intended to provide a platform for testing",
+        "title": "Birth Control",
+        "description": "Is birth control effective?",
         "groups": [
             {
                 "members": [
-                    "Blank Blank",
-                    "Empty Empty",
+                    "Camryn S",
+                    "Marissa E",
                 ],
-                "poster": "../assets/ballotmeasures/poster/computer.jpg"
+                "poster": "../assets/chemicals/posters/Birth control_MC.jpg"
+            },
+            {
+                "members": [
+                    "Annailisa T",
+                    "Dayja M",
+                ],
+                "poster": "../assets/chemicals/posters/Birth Control_AD.jpg"
             },
         ],
     },
     {
-        "title": "DDT",
-        "description": "DDT is a chemical",
+        "title": "Bleach",
+        "description": "Should bleach be used commonly in househol?",
         "groups": [
             {
                 "members": [
-                    "Scott Semtner",
-                    "Dominic Lara",
+                    "Carter K",
+                    "Ezekiel D",
                 ],
-                "poster": "https://lh3.googleusercontent.com/vySrTIijxbb_TQ2vNc8fzXxm3t4ZHkPI-M308ge1gUM-wbp_xvjBJdTOIiPkEyJ1EUlF5IId_rPUb77qOrkLMPFAVcHDnVA4MMj7uGfiUu7OTMl8zYyqGtwO_qtgwIegm-YSQNAYBvsd1yHVJzQ4G8FZXpbP2OPOgMOQQpF5DJT2__qJO9z6e1G3pK0ICDjIwHv27jCjzz3ME6BjhggzWrbT7oRAAZXw5TWMkHZEbhR6HSOK0aglKk66V1SgAa8eF_NXZq5K0m2gwvqzFhqNEKsTzBstBi7Lv4NM7UrWVYDggDODB2ed-1s5wcCRNzxliC5O6Z3lKyE01Zb4eBI-2InLcvgT9TQcslW1AfcPtDfgilXy9kkPXu2jTsoLTaQ6nvu7A4723GfivJFQ-tH4jQndaKHeS-hgM3FKnwI6pFOeN96nqS25DzHl9EmsXT5aLcjNbkYGNQJ6iCxAW0aGoQPRosaCxlCMkPXtfpDzU45Y2O1ue1g6ii_s58DCExceQMSWWf8ZzPwcOWD73qCPtey7dPhvaQyonchdNWrcyJdtp5ABtyXL0lZvnQeUzCA4yiWNAzSG1mpexZOPrsO_N9Yk_eQ0BjvguVleTMuK77D3x9pCm8GUWv1bFyz8eiJBz1HJuQ7Gy9E3CWuuIrOngpev4NAYVQcifDbNPs9-I4GxJP6n2eU_g_0JhlsgtA=w704-h938-no"
+                "poster": "../assets/chemicals/posters/Bleach_EC.jpg"
             },
         ],
-    }
+    },
+    {
+        "title": "Caffeine",
+        "description": "Do the benefits of caffeine outweigh the negatives?\nShould there be restrictions for the consumption of coffee if it's known to be addictive?",
+        "groups": [
+            {
+                "members": [
+                    "Collin C",
+                    "Ella T",
+                ],
+                "poster": "../assets/chemicals/posters/Caffeine_CE.jpg"
+            },
+            {
+                "members": [
+                    "Stella M",
+                    "Sofia T",
+                ],
+                "poster": "../assets/chemicals/posters/Caffeine_SS.jpg"
+            },
+        ],
+    },
+    
+    {
+        "title": "DDT",
+        "description": "Should DDT be used to combat Malaria, despite the enviornmental and health impacts?",
+        "groups": [
+            {
+                "members": [
+                    "Scott S",
+                    "Jonas G",
+                ],
+                "poster": "../assets/chemicals/posters/DDT_SJ.jpg"
+            },
+        ],
+    },
+    {
+        "title": "GMOs",
+        "description": "Are GMO's bad for plants and animals?",
+        "groups": [
+            {
+                "members": [
+                    "Markus H",
+                    "Max G",
+                ],
+                "poster": "../assets/chemicals/posters/"
+            },
+            {
+                "members": [
+                    "Edward H",
+                    "Allan B",
+                ],
+                "poster": "../assets/chemicals/posters/GMOs_EA.jpg"
+            },
+        ],
+    },
+    {
+        "title": "Hydroxychloroquine",
+        "description": "Does Hydroxychloroquine cure the Coronavirus?\nIs Hydroxychloroquine a possible cure for Covid-19?",
+        "groups": [
+            {
+                "members": [
+                    "Drew N",
+                    "Lev F",
+                ],
+                "poster": "../assets/chemicals/posters/Hydroxychloroquine_DL.jpg"
+            },
+            {
+                "members": [
+                    "Zoe N",
+                    "Lydia D",
+                ],
+                "poster": "../assets/chemicals/posters/Hy"
+            },
+        ],
+    },
+    {
+        "title": "Marijuana",
+        "description": "Should Marijuana be fully legalized in the U.S.?\nIs Cannabis more helpful than harmful?",
+        "groups": [
+            {
+                "members": [
+                    "Adam S",
+                    "Isabella V",
+                ],
+                "poster": "../assets/chemicals/posters/"
+            },
+            {
+                "members": [
+                    "Zahid M",
+
+                ],
+                "poster": "../assets/chemicals/posters/"
+            },
+        ],
+    },
+    {
+        "title": "Mercury",
+        "description": "Is mercury safe to use for dental fillings?",
+        "groups": [
+            {
+                "members": [
+                    "Donovan T",
+                    "Isaiah Dd"
+                ],
+                "poster": "../assets/chemicals/posters/"
+            },
+            {
+                "members": [
+                    "",
+
+                ],
+                "poster": "../assets/chemicals/posters/"
+            },
+        ],
+    },
+    {
+        "title": "Milk",
+        "description": "Is milk healthy?\nIs milk more harmful or beneficial to our health?",
+        "groups": [
+            {
+                "members": [
+                    "Tamsen B",
+                    "Gene L",
+                    "Jesse R",
+                ],
+                "poster": "../assets/chemicals/posters/"
+            },
+            {
+                "members": [
+                    "Remi M",
+                    "Jacob A",
+                ],
+                "poster": "../assets/chemicals/posters/"
+            },
+        ],
+    },
+    {
+        "title": "Morphine",
+        "description": "Is morphine addicting?",
+        "groups": [
+            {
+                "members": [
+                    "Sasha W",
+                    "Lori R",
+                ],
+                "poster": "../assets/chemicals/posters/"
+            },
+        ],
+    },
+    {
+        "title": "MSG",
+        "description": "Is MSG harmful to our bodies?",
+        "groups": [
+            {
+                "members": [
+                    "Zane C",
+                    "Taher H",
+                    "Antonio M",
+                ],
+                "poster": "../assets/chemicals/posters/"
+            },
+        ],
+    },
+    {
+        "title": "Nicotine",
+        "description": "What's sad the truth about nicotine?",
+        "groups": [
+            {
+                "members": [
+                    "Diego H",
+                    "Adonijah D"
+                ],
+                "poster": "../assets/chemicals/posters/"
+            },
+        ],
+    },
+    {
+        "title": "Perfume",
+        "description": "Does perfume cause skin damage?",
+        "groups": [
+            {
+                "members": [
+                    "Nithin R",
+                    "Noah M"
+                ],
+                "poster": "../assets/chemicals/posters/"
+            },
+        ],
+    },
+    {
+        "title": "Sugar",
+        "description": "How bad is sugar?",
+        "groups": [
+            {
+                "members": [
+                    "Bryce D",
+                    "Dominika B",
+                    "Mitchell L",
+                ],
+                "poster": "../assets/chemicals/posters/"
+            },
+        ],
+    },
+    {
+        "title": "Sulfates",
+        "description": "Are sulfates in cosmetics as harmful as people say they are?",
+        "groups": [
+            {
+                "members": [
+                    "Jillian H",
+                    "Sophia P"
+                ],
+                "poster": "../assets/chemicals/posters/"
+            },
+        ],
+    },
+    {
+        "title": "Tear Gas",
+        "description": "What are the effects of tear gas?",
+        "groups": [
+            {
+                "members": [
+                    "Maleah T",
+                    "Anna L",
+                    "Tyrone K",
+                ],
+                "poster": "../assets/chemicals/posters/"
+            },
+        ],
+    },
+    {
+        "title": "Tumeric",
+        "description": "Is tumeric truly a miracle drug?",
+        "groups": [
+            {
+                "members": [
+                    "Easha A",
+                    "Armin B",
+                ],
+                "poster": "../assets/chemicals/posters/"
+            },
+        ],
+    },
+    {
+        "title": "Vaccines",
+        "description": "Do vaccines actually cause autism?",
+        "groups": [
+            {
+                "members": [
+                    "Claire L",
+                    "Liz BO",
+                ],
+                "poster": "../assets/chemicals/posters/"
+            },
+        ],
+    },
+    {
+        "title": "Yellow 5",
+        "description": "Is yellow 5 (tartazine) dangerous to our bodies?",
+        "groups": [
+            {
+                "members": [
+                    "Kras C",
+                    "Zaria G,"
+                ],
+                "poster": "../assets/chemicals/posters/"
+            },
+        ],
+    },
 ];

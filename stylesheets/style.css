@@ -190,6 +190,6 @@ footer h4 {
     max-width: 300px;
     min-width: 200px;
     min-height: 350px;
-    margin: calc(2vw + 40px);
+    margin: calc(1vw + 40px);
     border: 1px solid black;
 }

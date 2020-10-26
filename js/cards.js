@@ -1,19 +1,15 @@
 function loadCardsLoop(db, url, search) {
     var returnList = [];
-    var url = "../templates/individualcard.html?"
-
-    if (url == 0) {
-        url = url + "chem-";
-    } else if (url == 1) {
-        url = url + "bm-";
-    }
 
     for (let i = 0; i < db.length; i++) {
+        var titleText = db[i].title;
+        var descriptionText = db[i].description;
+
         var groups = db[i].groups;
 
         var article = $("<article></article>");
-        var div =$("<div></div>");
-        var title = $("<h1></h1>").text(db[i].title);
+        var div = $("<div></div>");
+        var title = $("<h1></h1>").text(titleText);
         var nameText = "";
 
         // Iterates through groups and add names to the string
@@ -38,13 +34,21 @@ function loadCardsLoop(db, url, search) {
             }
         }
 
+        var skip = false;
+
         // Search Function
         if (search != null)
         {
-            if (!nameText.toLowerCase().includes(search.toLowerCase())) {
-                continue;
+            var containsName = !nameText.toLowerCase().includes(search.toLowerCase());
+            var containsDescription = !descriptionText.toLowerCase().includes(search.toLowerCase());
+            var containsTitle = !titleText.toLowerCase().includes(search.toLowerCase());
+            if (containsName && containsDescription && containsTitle) {
+                skip = true;
+                if (containsName == containsDescription == containsTitle == false) { skip = false; }
             }
         }
+
+        if (skip) continue;
 
         var names = $("<h2></h2>").text(nameText);
         var description = $("<h3></h3>").text(db[i].description);
@@ -62,10 +66,10 @@ function loadCardsLoop(db, url, search) {
 function loadCards(name) {
     switch (name) {
         case "chems":
-            $("#chemicals").append(loadCardsLoop(chemicalsJSON, 0, null));
+            $("#chemicals").append(loadCardsLoop(chemicalsJSON, "templates/individualcard.html?chem-", null));
             break;
         case "bmeasures":
-            $("#ballotmeasures").append(loadCardsLoop(ballotmeasuresJSON, 1, null));
+            $("#ballotmeasures").append(loadCardsLoop(ballotmeasuresJSON, "templates/individualcard.html?bm-", null));
             break;
     }
 }
