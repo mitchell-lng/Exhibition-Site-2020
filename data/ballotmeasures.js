@@ -31,7 +31,7 @@ const ballotmeasuresJSON = [
                     "Diego H.",
                 ],
                 "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/15A.jpg"
+                "poster": "../assets/ballotmeasures/15A.jpg"
             },
             {
                 "members": [
@@ -39,7 +39,7 @@ const ballotmeasuresJSON = [
                     "Collin C.",
                 ],
                 "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/15B.jpg"
+                "poster": "../assets/ballotmeasures/15B.jpg"
             },
         ],
     },
@@ -54,7 +54,7 @@ const ballotmeasuresJSON = [
                     "Maleah T.",
                 ],
                 "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/16A.jpg"
+                "poster": "../assets/ballotmeasures/16A.jpg"
             },
             {
                 "members": [
@@ -62,7 +62,7 @@ const ballotmeasuresJSON = [
                     "Elizabeth B.",
                 ],
                 "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/16B.jpg"
+                "poster": "../assets/ballotmeasures/16B.jpg"
             },
         ],
     },
@@ -76,7 +76,7 @@ const ballotmeasuresJSON = [
                     "Zoe N.",
                 ],
                 "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/17A.jpg"
+                "poster": "../assets/ballotmeasures/17A.jpg"
             },
             {
                 "members": [
@@ -85,7 +85,7 @@ const ballotmeasuresJSON = [
                     "Annalisa T."
                 ],
                 "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/17B.jpg"
+                "poster": "../assets/ballotmeasures/17B.jpg"
             },
         ],
     },
@@ -100,7 +100,7 @@ const ballotmeasuresJSON = [
                     "Noah M."
                 ],
                 "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/18A.jpg"
+                "poster": "../assets/ballotmeasures/18A.jpg"
             },
             {
                 "members": [
@@ -108,7 +108,7 @@ const ballotmeasuresJSON = [
                     "Claire L.",
                 ],
                 "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/18B.jpg"
+                "poster": "../assets/ballotmeasures/18B.jpg"
             },
         ],
     },
@@ -122,7 +122,7 @@ const ballotmeasuresJSON = [
                     "Stella M.",
                 ],
                 "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/19A.jpg"
+                "poster": "../assets/ballotmeasures/19A.jpg"
             },
         ],
     },
@@ -136,7 +136,7 @@ const ballotmeasuresJSON = [
                     "Allan B.",
                 ],
                 "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/20A.jpg"
+                "poster": "../assets/ballotmeasures/20A.jpg"
             },
             {
                 "members": [
@@ -144,7 +144,7 @@ const ballotmeasuresJSON = [
                     "Zaria G.",
                 ],
                 "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/20B.jpg"
+                "poster": "../assets/ballotmeasures/20B.jpg"
             },
         ],
     },
@@ -158,7 +158,7 @@ const ballotmeasuresJSON = [
                     "Edward H.",
                 ],
                 "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/21A.jpg",
+                "poster": "../assets/ballotmeasures/21A.jpg",
             },
             {
                 "members": [
@@ -167,7 +167,7 @@ const ballotmeasuresJSON = [
                     "Genevieve L.",
                 ],
                 "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/21B.jpg",
+                "poster": "../assets/ballotmeasures/21B.jpg",
             },
         ],
     },
@@ -181,7 +181,7 @@ const ballotmeasuresJSON = [
                     "Mitchell L.",
                 ],
                 "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/22A.jpg"
+                "poster": "../assets/ballotmeasures/22A.jpg"
             },
             {
                 "members": [
@@ -189,7 +189,7 @@ const ballotmeasuresJSON = [
                     "Markus H.",
                 ],
                 "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/22B.jpg"
+                "poster": "../assets/ballotmeasures/22B.jpg"
             },
         ],
     },
@@ -203,7 +203,7 @@ const ballotmeasuresJSON = [
                     "Andrew N.",
                 ],
                 "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/23B.jpg"
+                "poster": "../assets/ballotmeasures/23B.jpg"
             },
         ],
     },
@@ -218,7 +218,7 @@ const ballotmeasuresJSON = [
                     "Bryce D.",
                 ],
                 "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/24A.jpg"
+                "poster": "../assets/ballotmeasures/24A.jpg"
             },
             {
                 "members": [
@@ -226,7 +226,7 @@ const ballotmeasuresJSON = [
                     "Dominic Lara",
                 ],
                 "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/24B.jpg"
+                "poster": "../assets/ballotmeasures/24B.jpg"
             },
         ],
     },
@@ -240,7 +240,7 @@ const ballotmeasuresJSON = [
                     "Sophia P.",
                 ],
                 "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/25A.jpg"
+                "poster": "../assets/ballotmeasures/25A.jpg"
             },
             {
                 "members": [
@@ -248,7 +248,7 @@ const ballotmeasuresJSON = [
                     "Zane C.",
                 ],
                 "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/25B.jpg"
+                "poster": "../assets/ballotmeasures/25B.jpg"
             },
         ],
     },
@@ -263,7 +263,7 @@ const ballotmeasuresJSON = [
                     "Tyrone K.",
                 ],
                 "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/policeA.jpg"
+                "poster": "../assets/ballotmeasures/policeA.jpg"
             },
             {
                 "members": [
@@ -271,7 +271,7 @@ const ballotmeasuresJSON = [
                     "Ella T.",
                 ],
                 "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/policeB.jpg"
+                "poster": "../assets/ballotmeasures/policeB.jpg"
             },
         ],
     },
