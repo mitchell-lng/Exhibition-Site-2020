@@ -102,7 +102,7 @@ const chemicalsJSON = [
                     "Zoe N",
                     "Lydia D",
                 ],
-                "poster": "../assets/chemicals/posters/Hy"
+                "poster": "../assets/chemicals/posters/Hydroxychloroquine_LZ.jpg"
             },
         ],
     },
@@ -122,7 +122,7 @@ const chemicalsJSON = [
                     "Zahid M",
 
                 ],
-                "poster": "../assets/chemicals/posters/"
+                "poster": "../assets/chemicals/posters/Cannabis_ZE.jpg"
             },
         ],
     },
@@ -135,14 +135,7 @@ const chemicalsJSON = [
                     "Donovan T",
                     "Isaiah Dd"
                 ],
-                "poster": "../assets/chemicals/posters/"
-            },
-            {
-                "members": [
-                    "",
-
-                ],
-                "poster": "../assets/chemicals/posters/"
+                "poster": "../assets/chemicals/posters/Mercury_DI.jpg"
             },
         ],
     },
@@ -156,14 +149,14 @@ const chemicalsJSON = [
                     "Gene L",
                     "Jesse R",
                 ],
-                "poster": "../assets/chemicals/posters/"
+                "poster": "../assets/chemicals/posters/Is Milk Healthy_ Controversial chemical poster T+J+G.jpg"
             },
             {
                 "members": [
                     "Remi M",
                     "Jacob A",
                 ],
-                "poster": "../assets/chemicals/posters/"
+                "poster": "../assets/chemicals/posters/Milk_RJ.jpg"
             },
         ],
     },
@@ -176,7 +169,7 @@ const chemicalsJSON = [
                     "Sasha W",
                     "Lori R",
                 ],
-                "poster": "../assets/chemicals/posters/"
+                "poster": "../assets/chemicals/posters/Morphine_LS.jpg"
             },
         ],
     },
@@ -190,7 +183,7 @@ const chemicalsJSON = [
                     "Taher H",
                     "Antonio M",
                 ],
-                "poster": "../assets/chemicals/posters/"
+                "poster": "../assets/chemicals/posters/MSG_ZTA.jpg"
             },
         ],
     },
@@ -203,7 +196,7 @@ const chemicalsJSON = [
                     "Diego H",
                     "Adonijah D"
                 ],
-                "poster": "../assets/chemicals/posters/"
+                "poster": "../assets/chemicals/posters/Nicotine_AD.jpg"
             },
         ],
     },
@@ -216,7 +209,7 @@ const chemicalsJSON = [
                     "Nithin R",
                     "Noah M"
                 ],
-                "poster": "../assets/chemicals/posters/"
+                "poster": "../assets/chemicals/posters/Perfume_NN.jpg"
             },
         ],
     },
@@ -230,7 +223,7 @@ const chemicalsJSON = [
                     "Dominika B",
                     "Mitchell L",
                 ],
-                "poster": "../assets/chemicals/posters/"
+                "poster": "../assets/chemicals/posters/Sugar_DMB.jpg"
             },
         ],
     },
@@ -243,7 +236,7 @@ const chemicalsJSON = [
                     "Jillian H",
                     "Sophia P"
                 ],
-                "poster": "../assets/chemicals/posters/"
+                "poster": "../assets/chemicals/posters/Sulfates_JS.jpg"
             },
         ],
     },
@@ -257,7 +250,7 @@ const chemicalsJSON = [
                     "Anna L",
                     "Tyrone K",
                 ],
-                "poster": "../assets/chemicals/posters/"
+                "poster": "../assets/chemicals/posters/tear gas_MAT.jpg"
             },
         ],
     },
@@ -270,7 +263,7 @@ const chemicalsJSON = [
                     "Easha A",
                     "Armin B",
                 ],
-                "poster": "../assets/chemicals/posters/"
+                "poster": "../assets/chemicals/posters/Tumeric_AE.jpg"
             },
         ],
     },
@@ -283,7 +276,7 @@ const chemicalsJSON = [
                     "Claire L",
                     "Liz BO",
                 ],
-                "poster": "../assets/chemicals/posters/"
+                "poster": "../assets/chemicals/posters/Vaccines_CE.jpg"
             },
         ],
     },
@@ -296,7 +289,7 @@ const chemicalsJSON = [
                     "Kras C",
                     "Zaria G,"
                 ],
-                "poster": "../assets/chemicals/posters/"
+                "poster": "../assets/chemicals/posters/Yellow 5_KZ.jpg"
             },
         ],
     },
