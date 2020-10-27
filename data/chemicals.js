@@ -75,7 +75,7 @@ const chemicalsJSON = [
                     "Markus H",
                     "Max G",
                 ],
-                "poster": "../assets/chemicals/posters/"
+                "poster": "../assets/chemicals/posters/GMOs_MM.jpg"
             },
             {
                 "members": [
