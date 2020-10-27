@@ -115,7 +115,7 @@ const chemicalsJSON = [
                     "Adam S",
                     "Isabella V",
                 ],
-                "poster": "../assets/chemicals/posters/"
+                "poster": "../assets/chemicals/posters/Marijuana_AI.jpg"
             },
             {
                 "members": [
