@@ -41,10 +41,17 @@ $(document).ready(function() {
 
     $("#title").text(db.title);
 
-    var m = [...db.groups[group].members];
-    m.pop();
+
+    if (db.groups[group].members.length == 1) {
+        $("#members").text(db.groups[group].members[0]);
+    }
+    else {
+        var m = [...db.groups[group].members];
+        m.pop();
     
-    $("#members").text(m.join(", ") + " and " + db.groups[group].members[db.groups[group].members.length - 1]);
+        $("#members").text(m.join(", ") + " and " + db.groups[group].members[db.groups[group].members.length - 1]);
+    }
+
     $("#description").text(db.description);
     $("#gdocURL").attr("href", db.groups[group].pdf);
     $("#posterURL").css("background-image", "url('" + db.groups[group].poster + "')");

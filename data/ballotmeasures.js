@@ -8,16 +8,16 @@ const ballotmeasuresJSON = [
                     "Easha A.",
                     "Ezekiel D.",
                 ],
-                "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/14A.jpg"
+                "pdf": "https://docs.google.com/document/d/1nbC1Tpwjoy5vliQLY3pfU3oUMFAPpF6ddr2v8dffWHk/edit?usp=sharing",
+                "poster": "../assets/ballotmeasures/14A.jpg"
             },
             {
                 "members": [
                     "Sasha W.",
                     "Max G.",
                 ],
-                "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/14B.jpg"
+                "pdf": "https://docs.google.com/document/d/1iy2B2UDNrvN9OgrGy2TyEUlZuOnr0MU6uqAGPbBD_8A/edit?usp=sharing",
+                "poster": "../assets/ballotmeasures/14B.jpg"
             },
         ],
     },
@@ -30,7 +30,7 @@ const ballotmeasuresJSON = [
                     "Adonijah D.",
                     "Diego H.",
                 ],
-                "pdf": "https://www.google.com",
+                "pdf": "https://docs.google.com/document/d/1xOByCyD-nZOHOaiMguOUNMWkd9Tw8QdPLIhg3wbh18Y/edit?usp=sharing",
                 "poster": "../assets/ballotmeasures/15A.jpg"
             },
             {
@@ -38,7 +38,7 @@ const ballotmeasuresJSON = [
                     "Taher H.",
                     "Collin C.",
                 ],
-                "pdf": "https://www.google.com",
+                "pdf": "https://docs.google.com/document/d/1MpHJxJgbXeW6U_MAqzxNhRyFumb67Wl5bVCrhOUO3yo/edit?usp=sharing",
                 "poster": "../assets/ballotmeasures/15B.jpg"
             },
         ],
@@ -53,15 +53,15 @@ const ballotmeasuresJSON = [
                     "Anna L.",
                     "Maleah T.",
                 ],
-                "pdf": "https://www.google.com",
+                "pdf": "https://docs.google.com/document/d/1MInIgTZwPMv7UM3NtTP8B8Zw7cVUmhKrN7O_q5Iu9RE/edit?usp=sharing",
                 "poster": "../assets/ballotmeasures/16A.jpg"
             },
             {
                 "members": [
                     "Jesse R.",
-                    "Elizabeth B.",
+                    "Liz B.",
                 ],
-                "pdf": "https://www.google.com",
+                "pdf": "https://docs.google.com/document/d/1lrDtEVCk2K7O8xuFZcKNr7qhgadja7GKWbgD7hHTFtc/edit?usp=sharing",
                 "poster": "../assets/ballotmeasures/16B.jpg"
             },
         ],
@@ -75,7 +75,7 @@ const ballotmeasuresJSON = [
                     "Zahid M.",
                     "Zoe N.",
                 ],
-                "pdf": "https://www.google.com",
+                "pdf": "https://docs.google.com/document/d/1ClUYv7VtVl8ZXOkZm73ALO9FbjJZxYS31K9h7CvMwp4/edit?usp=sharing",
                 "poster": "../assets/ballotmeasures/17A.jpg"
             },
             {
@@ -84,7 +84,7 @@ const ballotmeasuresJSON = [
                     "Lev F.",
                     "Annalisa T."
                 ],
-                "pdf": "https://www.google.com",
+                "pdf": "https://docs.google.com/document/d/1I-uhHhQCcu7yQMF7FxX9DRqq3r1zUmrFEmo5rdxPDE0/edit?usp=sharing",
                 "poster": "../assets/ballotmeasures/17B.jpg"
             },
         ],
@@ -99,7 +99,7 @@ const ballotmeasuresJSON = [
                     "Lydia D.",
                     "Noah M."
                 ],
-                "pdf": "https://www.google.com",
+                "pdf": "https://docs.google.com/document/d/1bpUn7NLHKMsgzpS1tQZuzSET_XCKXruE-xULv7EIhMo/edit?usp=sharing",
                 "poster": "../assets/ballotmeasures/18A.jpg"
             },
             {
@@ -107,7 +107,7 @@ const ballotmeasuresJSON = [
                     "Isabella V.",
                     "Claire L.",
                 ],
-                "pdf": "https://www.google.com",
+                "pdf": "https://docs.google.com/document/d/1hvYSm1dPtd5CauTWgQrqMrPdpNYqdhRzNfPYysS9ojA/edit?usp=sharing",
                 "poster": "../assets/ballotmeasures/18B.jpg"
             },
         ],
@@ -121,7 +121,7 @@ const ballotmeasuresJSON = [
                     "Armin B.",
                     "Stella M.",
                 ],
-                "pdf": "https://www.google.com",
+                "pdf": "https://docs.google.com/document/d/1UXk7lO2KpE9SHY_IYXHB_mhaYL98li31Jf_JqQLaVWM/edit?usp=sharing",
                 "poster": "../assets/ballotmeasures/19A.jpg"
             },
         ],
@@ -135,7 +135,7 @@ const ballotmeasuresJSON = [
                     "Jacob A.",
                     "Allan B.",
                 ],
-                "pdf": "https://www.google.com",
+                "pdf": "https://docs.google.com/document/d/1unaLc-IOjy-Z5cEE5cRU2Ol5KlLN_jANBDMEVYrayOM/edit?usp=sharing",
                 "poster": "../assets/ballotmeasures/20A.jpg"
             },
             {
@@ -143,7 +143,7 @@ const ballotmeasuresJSON = [
                     "Jillian H.",
                     "Zaria G.",
                 ],
-                "pdf": "https://www.google.com",
+                "pdf": "https://docs.google.com/document/d/1P71WElFOSACu4cNQmn0Wo8-83vXFL_58Q-V7vrKpr5w/edit?usp=sharing",
                 "poster": "../assets/ballotmeasures/20B.jpg"
             },
         ],
@@ -157,7 +157,7 @@ const ballotmeasuresJSON = [
                     "Marissa E.",
                     "Edward H.",
                 ],
-                "pdf": "https://www.google.com",
+                "pdf": "https://docs.google.com/document/d/1kYJtRo-bhBuLg9bnOHmczPwU1lzUEhm8uz2FEQOxCAE/edit?usp=sharing",
                 "poster": "../assets/ballotmeasures/21A.jpg",
             },
             {
@@ -166,7 +166,7 @@ const ballotmeasuresJSON = [
                     "Lori R.",
                     "Genevieve L.",
                 ],
-                "pdf": "https://www.google.com",
+                "pdf": "https://docs.google.com/document/d/1qR4iSaUmWu_7G2o_TFxBpo0xfU5Y2rDD-P0gtvTwzN0/edit?usp=sharing",
                 "poster": "../assets/ballotmeasures/21B.jpg",
             },
         ],
@@ -180,7 +180,7 @@ const ballotmeasuresJSON = [
                     "Carter K.",
                     "Mitchell L.",
                 ],
-                "pdf": "https://www.google.com",
+                "pdf": "https://docs.google.com/document/d/1K1IEmKRNTyGtct29nrg0lqf1GD50zW1JlG31PL_2Jsg/edit?usp=sharing",
                 "poster": "../assets/ballotmeasures/22A.jpg"
             },
             {
@@ -188,7 +188,7 @@ const ballotmeasuresJSON = [
                     "Jonas G.",
                     "Markus H.",
                 ],
-                "pdf": "https://www.google.com",
+                "pdf": "https://docs.google.com/document/d/1l54alJy2hfZZ-eW51R7VeVc6Pu9iGDvvv6jYcnieysY/edit?usp=sharing",
                 "poster": "../assets/ballotmeasures/22B.jpg"
             },
         ],
@@ -202,7 +202,7 @@ const ballotmeasuresJSON = [
                     "Isaiah D.",
                     "Andrew N.",
                 ],
-                "pdf": "https://www.google.com",
+                "pdf": "https://docs.google.com/document/d/1vRAMkaQ39fMdlMDiNrKQRbXM7J-W45Kn0lqXfJfB8R4/edit?usp=sharing",
                 "poster": "../assets/ballotmeasures/23B.jpg"
             },
         ],
@@ -217,15 +217,14 @@ const ballotmeasuresJSON = [
                     "Dominika B.",
                     "Bryce D.",
                 ],
-                "pdf": "https://www.google.com",
+                "pdf": "https://docs.google.com/document/d/1Z1Cn4Y1t9Br6C0tdbWReChz7e_FjRF4l7jex-xqY7e0/edit?usp=sharing",
                 "poster": "../assets/ballotmeasures/24A.jpg"
             },
             {
                 "members": [
-                    "Scott Semtner",
-                    "Dominic Lara",
+                    "Scott S",
                 ],
-                "pdf": "https://www.google.com",
+                "pdf": "https://docs.google.com/document/d/11i3aBnJmTIWJSjpQNB1y8DIjJdtfhxdUPzMPn5Hblkc/edit?usp=sharing",
                 "poster": "../assets/ballotmeasures/24B.jpg"
             },
         ],
@@ -239,7 +238,7 @@ const ballotmeasuresJSON = [
                     "Jonah S.",
                     "Sophia P.",
                 ],
-                "pdf": "https://www.google.com",
+                "pdf": "https://docs.google.com/document/d/1IdYaJL95zN_FFEikptvw53WaIdzPK20MX90qjfCf1iw/edit?usp=sharing",
                 "poster": "../assets/ballotmeasures/25A.jpg"
             },
             {
@@ -247,13 +246,13 @@ const ballotmeasuresJSON = [
                     "Krasiba C.",
                     "Zane C.",
                 ],
-                "pdf": "https://www.google.com",
+                "pdf": "https://docs.google.com/document/d/1Xu9nfxchZPJ3uAwbyRuKJ147I4QAskygIhqutjIyed0/edit?usp=sharing",
                 "poster": "../assets/ballotmeasures/25B.jpg"
             },
         ],
     },
     {
-        "title": "Police",
+        "title": "Measure B",
         "description": "San Diego Police Practices",
         "groups": [
             {
@@ -262,7 +261,7 @@ const ballotmeasuresJSON = [
                     "Remi M.",
                     "Tyrone K.",
                 ],
-                "pdf": "https://www.google.com",
+                "pdf": "https://docs.google.com/document/d/1LCOLnX8Lo6xBd4B3fxnoQeCsFx0CvveGjiD3ZFMHJRc/edit?usp=sharing",
                 "poster": "../assets/ballotmeasures/policeA.jpg"
             },
             {
@@ -270,13 +269,13 @@ const ballotmeasuresJSON = [
                     "Dayja M.",
                     "Ella T.",
                 ],
-                "pdf": "https://www.google.com",
+                "pdf": "https://docs.google.com/document/d/1mpOnlVpweb1AV45Se93fJURWkfjRvP3NjHlSBNLbl-4/edit?usp=sharing",
                 "poster": "../assets/ballotmeasures/policeB.jpg"
             },
         ],
     },
     {
-        "title": "School",
+        "title": "Measure C",
         "description": "",
         "groups": [
             {
@@ -284,8 +283,8 @@ const ballotmeasuresJSON = [
                     "Tamsen B.",
                     "Adam S.",
                 ],
-                "pdf": "https://www.google.com",
-                "poster": "../assets/ballotmeasures/ballotmeasures/schoolB.jpg"
+                "pdf": "https://docs.google.com/document/d/11CdLj1QB6Mn1BtHb8rNDjLfFW_ruzwFfqMYDTomFL1w/edit?usp=sharing",
+                "poster": "../assets/ballotmeasures/schoolB.jpg"
             }
         ],
     },

@@ -20,7 +20,7 @@ function loadCardsLoop(db, url, search) {
             for (var j = 0; j < members.length; j++) {
                 if (j != (members.length - 1)) {
                     if ((members.length - 2 == j) && (groups.length - 1 == k)) {
-                        nameText = nameText + members[j] + ", and ";
+                        nameText = nameText + members[j] + " and ";
                     } else {
                         nameText = nameText + members[j] + ", ";
                     }

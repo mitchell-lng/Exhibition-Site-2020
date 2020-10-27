@@ -58,7 +58,7 @@ header h1 {
   margin-bottom: 30vh;
   padding-top: 5vh;
   padding-bottom: 5vh;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   font-family: 'Courier Prime', monospace;
   text-align: center;
 }
@@ -111,15 +111,11 @@ header h1 {
 }
 
 #sciorsocial {
-  background-image: url("../assets/website/Science or Social Media.png");
+  background-image: url("../assets/website/scienceOrSocialMedia.png");
 }
 
 #humimg {
-    background-image: url("../assets/website/computer.jpg");
-}
-
-#anotherimg {
-    background-image: url("../assets/website/computer.jpg");
+    background-image: url("../assets/website/hthmvirtualproptalk.jpg");
 }
 
 .side-image div:not(.si-image) {
@@ -161,6 +157,7 @@ footer h4 {
 .cards article div h1 {
     font-family: 'Courier Prime', monospace;
     text-align: center;
+    word-wrap: break-word;
 }
 
 .cards article div h2 {
@@ -176,6 +173,7 @@ footer h4 {
     font-size: 0.9rem;
     font-weight: 400;
     font-family: 'Courier Prime', monospace;
+    word-wrap: break-word;
 }
 
 .cards > article > a {
@@ -193,7 +191,7 @@ footer h4 {
 }
 
 .cards > article > div {
-    padding: 20px;
+    padding: 40px;
 }
 
 .cards > article {
@@ -202,6 +200,17 @@ footer h4 {
     max-width: 300px;
     min-width: 200px;
     min-height: 350px;
-    margin: calc(1vw + 40px);
+    margin: calc(1vw + 10px);
     border: 1px solid black;
+}
+
+.main-header {
+    margin: calc(4vw + 40px);
+    margin-right: calc(15vw + 40px);
+    margin-left: calc(15vw + 40px);
+    padding: 20px;
+}
+
+.main-header h1 {
+    margin-bottom: 10px;
 }

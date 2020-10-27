@@ -1,18 +1,18 @@
 const chemicalsJSON = [
     {
         "title": "Birth Control",
-        "description": "Is birth control effective?",
+        "description": "Is birth control solely used for the reason the media portrays the reason to be?",
         "groups": [
             {
                 "members": [
                     "Camryn S",
                     "Marissa E",
                 ],
-                "poster": "../assets/chemicals/posters/Birth control_MC.jpg"
+                "poster": "../assets/chemicals/posters/Birth Control_MC.jpg"
             },
             {
                 "members": [
-                    "Annailisa T",
+                    "Annalisa T",
                     "Dayja M",
                 ],
                 "poster": "../assets/chemicals/posters/Birth Control_AD.jpg"
@@ -21,7 +21,7 @@ const chemicalsJSON = [
     },
     {
         "title": "Bleach",
-        "description": "Should bleach be used commonly in househol?",
+        "description": "Should bleach be used commonly in households?",
         "groups": [
             {
                 "members": [
@@ -34,7 +34,7 @@ const chemicalsJSON = [
     },
     {
         "title": "Caffeine",
-        "description": "Do the benefits of caffeine outweigh the negatives?\nShould there be restrictions for the consumption of coffee if it's known to be addictive?",
+        "description": "Is caffeine a net positive?\nShould there be restrictions on coffee?",
         "groups": [
             {
                 "members": [
@@ -88,7 +88,7 @@ const chemicalsJSON = [
     },
     {
         "title": "Hydroxychloroquine",
-        "description": "Does Hydroxychloroquine cure the Coronavirus?\nIs Hydroxychloroquine a possible cure for Covid-19?",
+        "description": "Is Hydroxychloroquine a possible cure for Covid-19?",
         "groups": [
             {
                 "members": [
@@ -120,7 +120,7 @@ const chemicalsJSON = [
             {
                 "members": [
                     "Zahid M",
-
+                    "Elizabeth G"
                 ],
                 "poster": "../assets/chemicals/posters/Cannabis_ZE.jpg"
             },
@@ -133,7 +133,7 @@ const chemicalsJSON = [
             {
                 "members": [
                     "Donovan T",
-                    "Isaiah Dd"
+                    "Isaiah D"
                 ],
                 "poster": "../assets/chemicals/posters/Mercury_DI.jpg"
             },
@@ -255,8 +255,8 @@ const chemicalsJSON = [
         ],
     },
     {
-        "title": "Tumeric",
-        "description": "Is tumeric truly a miracle drug?",
+        "title": "Turmeric",
+        "description": "Is turmeric truly a miracle drug?",
         "groups": [
             {
                 "members": [
@@ -287,7 +287,7 @@ const chemicalsJSON = [
             {
                 "members": [
                     "Kras C",
-                    "Zaria G,"
+                    "Zaria G",
                 ],
                 "poster": "../assets/chemicals/posters/Yellow 5_KZ.jpg"
             },
