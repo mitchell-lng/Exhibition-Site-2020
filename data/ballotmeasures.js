@@ -276,7 +276,7 @@ const ballotmeasuresJSON = [
     },
     {
         "title": "Measure C",
-        "description": "",
+        "description": "SDUSD School Board Election by District Ammendment",
         "groups": [
             {
                 "members": [
