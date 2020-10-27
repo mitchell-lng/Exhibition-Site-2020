@@ -1,6 +1,13 @@
 function loadCardsLoop(db, url, search) {
     var returnList = [];
 
+    // Dont change this, it'll break the search page
+    if (url == 0) {
+        url = "templates/individualcard.html?chem-";
+    } else {
+        url = "templates/individualcard.html?bm-";
+    }
+
     for (let i = 0; i < db.length; i++) {
         var titleText = db[i].title;
         var descriptionText = db[i].description;
@@ -66,10 +73,10 @@ function loadCardsLoop(db, url, search) {
 function loadCards(name) {
     switch (name) {
         case "chems":
-            $("#chemicals").append(loadCardsLoop(chemicalsJSON, "templates/individualcard.html?chem-", null));
+            $("#chemicals").append(loadCardsLoop(chemicalsJSON, 0, null));
             break;
         case "bmeasures":
-            $("#ballotmeasures").append(loadCardsLoop(ballotmeasuresJSON, "templates/individualcard.html?bm-", null));
+            $("#ballotmeasures").append(loadCardsLoop(ballotmeasuresJSON, 1, null));
             break;
     }
 }
